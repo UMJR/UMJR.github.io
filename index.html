@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Next Level Gaming Lounge</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+  <link rel="icon" type="image/png" href="favicon-32.jpg" />
+</head>
+<body>
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="logo">🎮 Next Level</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#galeria">Galería</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+      <div class="menu-toggle">☰</div>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section id="inicio" class="hero">
+    <div class="hero-content">
+      <h1>Next Level Gaming Lounge</h1>
+      <p>Donde los videojuegos y las buenas bebidas se unen en una experiencia épica</p>
+      <a href="#servicios" class="btn">Descubre más</a>
+    </div>
+  </section>
+
+  <!-- SERVICIOS -->
+  <section id="servicios" class="services">
+    <h2>Servicios</h2>
+    <div class="service-cards">
+      <div class="card neon-border">
+        <i class="icon">🕹️</i>
+        <h3>Zona Gaming</h3>
+        <p>Equipos de alto rendimiento con monitores 240Hz, sillas ergonómicas y juegos competitivos.</p>
+      </div>
+      <div class="card neon-border">
+        <i class="icon">🍹</i>
+        <h3>Bar & Drinks</h3>
+        <p>Cocteles temáticos gamer, cervezas artesanales y un ambiente único para relajarte.</p>
+      </div>
+      <div class="card neon-border">
+        <i class="icon">🏆</i>
+        <h3>Torneos & Eventos</h3>
+        <p>Compite, gana premios y disfruta nuestras noches temáticas y eventos especiales.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALERÍA -->
+  <section id="galeria" class="gallery">
+    <h2>Galería</h2>
+    <div class="gallery-grid">
+      <img src="https://picsum.photos/400/250?random=1" alt="Zona Gaming" />
+      <img src="https://picsum.photos/400/250?random=2" alt="Bar Lounge" />
+      <img src="https://picsum.photos/400/250?random=3" alt="Torneos" />
+      <img src="https://picsum.photos/400/250?random=4" alt="Eventos" />
+    </div>
+  </section>
+
+  <!-- SLIDER -->
+  <section id="slider" class="slider-section">
+    <h2>Destacados</h2>
+    <div class="slider-container">
+      <div class="slider">
+        <div class="slide active">
+          <img src="https://picsum.photos/1200/500?random=10" alt="Slide 1" />
+          <div class="caption">Zona Gaming de última generación</div>
+        </div>
+        <div class="slide">
+          <img src="https://picsum.photos/1200/500?random=11" alt="Slide 2" />
+          <div class="caption">Ambiente exclusivo con bebidas premium</div>
+        </div>
+        <div class="slide">
+          <img src="https://picsum.photos/1200/500?random=12" alt="Slide 3" />
+          <div class="caption">Eventos y torneos cada semana</div>
+        </div>
+      </div>
+      <button class="prev">❮</button>
+      <button class="next">❯</button>
+      <div class="dots"></div>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section id="contacto" class="contact">
+    <form id="contact-form">
+      <h2>Contáctanos</h2>
+      <input type="text" placeholder="Tu Nombre" required />
+      <input type="email" placeholder="Tu Correo" required />
+      <textarea placeholder="Tu Mensaje" rows="5" required></textarea>
+      <button type="submit" class="btn">Enviar</button>
+    </form>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2025 Next Level Gaming Lounge | Vive la experiencia gamer definitiva</p>
+  </footer>
+</body>
+</html>
